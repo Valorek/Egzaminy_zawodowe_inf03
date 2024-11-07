@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Konfigurator wyposazenia</title>
+</head>
+<header>
+    <img src="baner.gif" alt="baner" loop>
+
+</header>
+<body>
+    <main>
+        <div class="lewy">
+            <hr>
+            <h3>Kolor</h3>
+            <form>
+                <select id="kolory">
+                    <option value="szary">Szary</option>
+                    <option value="niebieski">Niebieski</option>
+                    <option value="czerwony">Czerwony</option>
+                    <option value="zolty">Zolty</option>
+                    <option value="zielony">Zielony</option>
+                </select>
+
+            </form>
+            <hr>
+            <h3>Felgi</h3>
+            <form>
+                <input type="radio" name="felgi" id="stalowe" value="stalowe">Stalowe
+                <br>
+                <input type="radio" name="felgi" id="aluminowe" value="aluminiowe">Aluminiowe
+            </form>
+
+            <hr>
+            <h3>Doposażenie</h3>
+            <form>
+                <input type="checkbox" name="dodatki" id="Czujniki parkowania">Czujniki parkowania
+                <br>
+                <input type="checkbox" name="dodatki" id="Climatronic">Climatronic
+                <br>
+                <input type="checkbox" name="dodatki" id="Nawigacja">Nawigacja
+            </form>
+            <hr>
+
+
+        </div>
+        <div class="prawy">
+            <h1>Twój samochód</h1>
+            <img  id="szarik" src="szary.png" alt="foto">
+            <h1>Wycena</h1>
+            <p id="stopka">Cena bazowa 75000zł</p>
+
+        </div>
+    </main>
+    <footer>
+        <p>Wiktor Galuszka <i>PESEL:000000000000</i></p>
+    </footer>
+</body>
+
+</html>
