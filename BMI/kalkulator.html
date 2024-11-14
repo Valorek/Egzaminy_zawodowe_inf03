@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Body Mass Index</title>
+</head>
+
+<body>
+    <header>
+        <img class="baner" src="baner.gif" alt="baner">
+    
+    </header>
+    <main>
+        <div class="lewy">
+            <hr>
+            <h2><a href="index.html" target="self">BMI</a></h2>
+            <hr>
+            <h2><a href="kalkulator.html" target="self">Kalkulator</a></h2>
+            <hr>
+        </div>
+        <div class="prawy">
+            <form>
+                <label for="waga">Waga</label>
+                <input type="text" id="waga">
+                <label for="wzrost">Wzrost</label>
+                <input type="text" id="wzrost">
+                <input type="button" value="Oblicz BMI" onclick="obliczenia()">
+                
+            </form>
+            <p id="wynik"></p>
+            <p id="analiza"></p>
+            
+        </div>
+    </main>
+    <footer>
+        <p>Autor strony <i>PESEL: 000000000000</i></p>
+    </footer>
+</body>
+
+<script src="script.js"></script>
+</html>
