@@ -1,0 +1,67 @@
+body {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+header {
+    background-color: #BA6B6C;
+    color: white;
+    padding: 7px;
+}
+
+.container {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap; 
+    list-style: none;
+}
+
+
+ul li img {
+    margin: 7px;
+    height: 120px;
+    box-shadow: 7px 7px 7px DimGray;
+}
+
+
+.lewy, .prawy {
+    background-color: #EF9A9A;
+    width: 20%;
+    height: 500px;
+}
+
+.srodek {
+    background-color: mistyrose;
+    width: 60%;
+    height: 500px;
+}
+
+footer {
+    background-color: #BA6B6C;
+    color: white;
+    padding: 7px;
+}
+
+.dane {
+    background-color: mistyrose;
+    padding: 50px;
+}
+
+ol li{
+    text-align: left;
+    list-style-type:upper-roman;
+}
+
+h2::first-letter {
+    font-size: 170%;
+    color: maroon;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border: solid maroon 1px;
+}
