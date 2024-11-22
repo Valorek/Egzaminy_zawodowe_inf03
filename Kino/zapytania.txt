@@ -1,0 +1,7 @@
+SELECT DISTINCT rezerwacje.Data,rezerwacje.Godzina FROM `rezerwacje`; 
+
+SELECT rezerwacje.Rzad,rezerwacje.Miejsce FROM rezerwacje WHERE YEAR(rezerwacje.Data)=2022 AND MONTH(rezerwacje.Data)=08 AND DAY(rezerwacje.Data)=09 AND rezerwacje.Godzina='18:00:00';
+
+SELECT COUNT(rezerwacje.ID) as "ilosc rezerwacji" FROM rezerwacje WHERE YEAR(rezerwacje.Data)=2022 AND MONTH(rezerwacje.Data)=08 AND DAY(rezerwacje.Data)=09 AND rezerwacje.Godzina='18:00:00'; 
+
+SELECT rezerwacje.Rzad, rezerwacje.Miejsce,rezerwacje.Data,rezerwacje.Godzina FROM rezerwacje JOIN kasjerzy ON rezerwacje.Id_kasjera=kasjerzy.Id WHERE kasjerzy.Imie="Jan" AND kasjerzy.Nazwisko="Bednarski";  
