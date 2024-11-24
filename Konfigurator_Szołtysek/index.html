@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Konfigurator wyposażenia</title>
+</head>
+<body>
+  
+    <main>
+        <header>
+            <img src="baner.jpg" alt="baner">
+        </header>
+        <div class="lewy">
+          
+            <form>
+                <hr>
+                <label for="kolor"><h2>kolor</h2></label>
+                <select id="kolor">
+                    <option value="szary">Szary</option>
+                    <option value="niebieski">Niebieski</option>
+                    <option value="czerwony">Czerwony</option>
+                    <option value="zolty">Żółty</option>
+                    <option value="zielony">Zielony</option>
+                </select>
+                <hr>
+                <label for="fele"><h2>Felgi</h2></label>
+                Stalowe<input type="radio" name="fele" id="stalowe" checked>
+                <br>
+                Aluminiowe<input type="radio" name="fele" id="aluminiowe">
+                <hr>
+                <label for="dodatki"><h2>Doposażenie</h2></label>
+                Czujniki parkowania<input type="checkbox" name="dodatki" id="czujki">
+                <br>
+                Climatronic<input type="checkbox" name="dodatki" id="czujki">
+                <br>
+                Nawigacja<input type="checkbox" name="dodatki" id="czujki">
+                <hr>
+            </form>
+
+        </div>
+        <div class="prawy">
+            <h1>Twój samochód</h1>
+            <img id="auto" src="szary.png" alt="foto">
+            <h1>Wycena</h1>
+            <div id="wypluwacz"></div>
+            <p id="cena">Cena bazowa 75000zł</p>
+        </div>
+
+        <footer>
+            <p>Autor strony: Wiktor Galuszka  PESEL:<i>000000000000</i></p>
+        </footer>
+        
+    </main>
+
+    
+</body>
+<script src="script.js"></script>
+</html>
