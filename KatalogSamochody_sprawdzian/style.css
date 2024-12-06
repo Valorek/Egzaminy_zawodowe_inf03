@@ -1,0 +1,121 @@
+header h1{
+    color: #952427;
+
+}
+nav ul li a:first-child{
+    color: #952427;
+}
+main{
+    background-color: gray;
+}
+
+header h3{
+    color: #000;
+}
+
+.lewy{
+    float: left;
+}
+
+.prawy{
+    float: right;
+}
+.glowny{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    background-image: url('baner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 400px;
+    border: 2px solid black;
+    box-shadow: 5px 10px 5px;
+    clear: both;
+}
+
+.glowny h3{
+    padding: 15px;
+}
+.niebieski{
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.prawy ul{
+    display: flex;
+}
+
+aside img:first-child{
+    float: left;
+}
+
+.obrazlewy{
+    float: right;
+}
+
+.obrazprawy{
+    float:right;
+}
+footer{
+    clear: both;
+}
+
+table{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+
+}
+table th{
+    border: 1px solid black;
+}
+table td{
+    border: 1px solid black;
+}
+
+table tbody tr:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.niebieski{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.zielony{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.czerwony{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.szary{
+    background-color: gray;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.najnowsze{
+    text-align: center;
+}
+
+#auto{
+    width: 300px;
+}
+
